@@ -49,6 +49,7 @@
           <div class="col-md-12">
             <div class="jumbotron">
               <h1>カテゴリ名</h1>
+              <c:out value="${mailAddress}" />
             </div>
           </div>
         </div>

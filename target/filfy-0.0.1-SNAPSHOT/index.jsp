@@ -22,10 +22,14 @@
               <br>
             </h1>
             <p class="text-inverse">今日という一日に最高の思い出を</p>
-            <br>
-            <br>
-            <c:url value="regist" var="messageUrl" />
-			<a href="${messageUrl}">Click to enter</a>
+            <form action="login" method="post">
+            	<input type="text" name="address" placeholder="メールアドレス">
+            	<input type="password" name="password" placeholder="パスワード">
+            	<input type="submit" value="ログイン">
+            </form>
+            <a href="regist">新規登録</a>
+            <c:url value="#" var="messageUrl" />
+			<a href="${messageUrl}">パスワードを忘れた方はこちら</a>
           </div>
         </div>
       </div>
